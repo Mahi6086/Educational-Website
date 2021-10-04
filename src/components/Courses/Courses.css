@@ -1,0 +1,16 @@
+.courses-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px; 
+        margin: 50px;   
+}
+.courses-title{
+    font-family: 'Roboto', sans-serif;
+}
+.dash{
+    background-color: #02863A;
+    text-align: center;
+    width: 90px;
+    height: 3px;
+    margin: 0px auto;
+}

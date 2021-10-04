@@ -1,0 +1,44 @@
+.intro-part{
+    font-family: 'Roboto', sans-serif;
+}
+.description{
+    margin-left: 300px;
+}
+.Students{
+    border: 2px solid #0EB582;
+    color: #0EB582;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 260px;
+    padding: 7px;
+    background-color: #F0FDFA;
+    margin-right: 15px;
+}
+.Students:hover{
+    border: none;
+}
+.Mentors{
+    border: 2px solid #0EB582;
+    color: #0EB582;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 260px;
+    padding: 7px;
+    background-color: #F0FDFA;
+}
+.Mentors:hover{
+    border: none;
+}
+.Graduate-Students{
+    font-size: 50px;
+
+}
+.Experts-Mentors{
+    font-size: 50px;
+}

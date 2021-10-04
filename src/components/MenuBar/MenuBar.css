@@ -1,0 +1,28 @@
+.MenuBar-container{
+  font-family: 'Roboto', sans-serif;
+  margin-top: -100px;
+  font-size: xx-large;
+}
+.logo-img h1{
+  margin-top: -50px;
+  font-weight: bold; 
+}
+.menubar {
+  
+  margin-top: -50px;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    
+  }
+  .logo-img{
+    color: #fff;
+  }
+  .menubar:hover {
+    color: #0EB582;
+  }
