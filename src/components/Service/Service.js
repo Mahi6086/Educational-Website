@@ -1,4 +1,4 @@
-import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Service.css'
@@ -23,7 +23,15 @@ const Service = (props) => {
             <FontAwesomeIcon style={{color:'gold'}} icon={faStarHalfAlt}></FontAwesomeIcon>
             <small style={{color:'#6C7562', fontWeight:'bolder'}}>{rating}</small>
         </div>
-        <h5 style={{fontWeight:"bolder", color:"orange"}}>${price}</h5>
+        <h5 style={{fontWeight:"bolder", color:"orange"}}>Price: ${price}</h5>
+        <div className="d-flex text-center mx-auto w-75 m-3">
+          <div>
+          <button style={{width:"200px"}}  type="button" class="btn btn-outline-warning text-white p-3 me-5 fw-bolder"> <FontAwesomeIcon style={{marginRight:'5px',color:'#FFC107'}} icon={faShoppingCart}></FontAwesomeIcon>add to cart</button>
+          </div>
+          <div>
+          <button style={{width:"200px"}} type="button" class="btn btn-outline-warning text-white p-3 fw-bolder">More Details..</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

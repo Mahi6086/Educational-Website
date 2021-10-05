@@ -1,15 +1,12 @@
 .about{
     font-family: 'Roboto', sans-serif;
-    font-size: 3 rem;
-    color: #FFC107;
+    font-size: 3rem;
+    color: #3F3D56;
 }
-.description{
-    text-align: center;
-    margin-right: 250px;
-    font-family: 'Roboto', sans-serif;
-    color: #6C7562
-}
-.about-us{
-    background-color: #212529;
+.descrip{
+   font-family: 'Roboto', sans-serif;
+   color: #6C7562;
+   text-align: justify;
     
 }
+

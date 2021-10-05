@@ -21,9 +21,13 @@
     text-decoration: none;
     
   }
+  
   .logo-img{
     color: #fff;
   }
   .menubar:hover {
     color: #0EB582;
+    transition: all .3s linear;
+    font-size: 20px;
+    font-weight: 700;
   }
