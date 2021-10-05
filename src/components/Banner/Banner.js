@@ -13,11 +13,10 @@ const Banner = () => {
                   THE BEST WAY <br /> TO LEARN TO CODE
                 </h1>
                 <p className="text-white text-center mt-3">
-                  Where Dreamers Become Doers And Earners
+                Lifelong learning and professional development for educators go <br/> hand-in-hand with Canvas Network's open, online courses, taught by experts and institutions worldwide.
                 </p>
                 <button className="mt-3 about-btn">About Us</button>
               </div>
-              {/* <div className="col-md-6"></div> */}
             </div>
           </div>
         </div>

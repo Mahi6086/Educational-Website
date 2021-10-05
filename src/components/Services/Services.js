@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Banner from '../Banner/Banner';
-import Footer from '../Footer/Footer';
 import Service from '../Service/Service';
 import './Services.css'
 const Services = () => {
@@ -13,9 +11,12 @@ const Services = () => {
     },[])
     return (
         <div>
-            <Banner></Banner>
-            <div className="row row-cols-1 row-cols-md-3 g-4">
-             <h1>i am services</h1>
+            <div>
+                <h1 className="text-center mt-5 courses-title mb-0">Our Courses</h1>
+                <div className="dash-cu"></div>
+            </div>
+            <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5 services-container">
+            
             {
                 services.map(service => <Service
                 key={service.title}
@@ -24,7 +25,7 @@ const Services = () => {
             }
             
         </div>
-         <Footer></Footer>
+        
         </div>
     );
 };

@@ -5,18 +5,17 @@ import Home from './components/Home/Home';
 import Error from './components/Error/Error';
 import Services from './components/Services/Services';
 import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-
 import Footer from './components/Footer/Footer';
 import Banner from './components/Banner/Banner';
-// import Service from './components/Service/Service';
+import Instructors from './components/Instructors/Instructors';
+
 function App() {
   return (
     <div className="App">
       <Router>
       <Banner></Banner>
         <Switch>
-          <Route  path="/">
+          <Route exact path="/">
             <Home></Home>
           </Route>
           <Route exact path="/home">
@@ -25,10 +24,10 @@ function App() {
           <Route exact path="/about">
             <About></About>
           </Route>
-          <Route exact path="/contact">
-            <Contact></Contact>
+          <Route exact path="/instructors">
+            <Instructors></Instructors>
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/courses">
             <Services></Services>
           </Route>
           <Route exact path="*">

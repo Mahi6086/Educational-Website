@@ -19,6 +19,12 @@
 }
 .Students:hover{
     border: none;
+    transition: all .3s linear;
+    transform: scale(105%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
 }
 .Mentors{
     border: 2px solid #0EB582;
@@ -34,6 +40,12 @@
 }
 .Mentors:hover{
     border: none;
+    transition: all .3s linear;
+    transform: scale(105%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
 }
 .Graduate-Students{
     font-size: 50px;

@@ -14,5 +14,10 @@
 }
 .course-style:hover{
     border: 3px solid #0EB582;
-    
+    transition: all .3s linear;
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
 }

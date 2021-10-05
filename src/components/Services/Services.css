@@ -1,0 +1,17 @@
+.services-container{
+    margin: 20px;
+   
+}
+.dash-cu{
+    
+        background-color: #FFC107;
+        text-align: center;
+        width: 170px;
+        height: 3px;
+        margin: 0px auto;
+    
+}
+.courses-title{
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}

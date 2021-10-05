@@ -12,7 +12,7 @@ const Courses = () => {
     return (
         <div>
             <div>
-                <h1 className="text-center mt-5 courses-title">Courses</h1>
+                <h1 className="text-center mt-5 courses-title">Featured</h1>
                 <div className="dash"></div>
             </div>
             

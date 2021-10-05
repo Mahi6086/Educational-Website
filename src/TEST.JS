@@ -91,3 +91,48 @@
         price: 15.99,
     },
 ] */
+
+/* const code = [
+    {
+        img: "https://i.ibb.co/TKjMrBM/player-1.png",
+        Expert: "Expert in Web Development",
+        instructor: "Mosh Hamedani",
+        Experience: "5+ Years"
+        
+    },
+    {
+        img: "https://i.ibb.co/mth99hR/player-3.png",
+        Expert: "Expert in Digital Marketing",
+        instructor: "Course Envy",
+        Experience: "3+ Years"
+        
+    },
+    {
+        img: "https://i.ibb.co/VS6bNDx/player-5.png",
+        Expert: "Expert in Graphic Design",
+        instructor: "Tim Buchalka",
+        Experience: "2+ Years"
+        
+    },
+    {
+        img: "https://i.ibb.co/646yVWV/player-4.png",
+        Expert: "Expert in JavaScript",
+        instructor: "Edwin Diaz",
+        Experience: "4+ Years"
+        
+    },
+    {
+        img: "https://i.ibb.co/4tqPRS8/player-2.png",
+        Expert: "Expert in PHP",
+        instructor: "Martin Perhiniak",
+        Experience: "6+ Years"
+        
+    },
+    {
+        img: "https://i.ibb.co/2ttQYGp/player-6.png",
+        Expert: "Expert in C++",
+        instructor: "Abdul Bari",
+        Experience: "5+ Years"
+        
+    },
+] */

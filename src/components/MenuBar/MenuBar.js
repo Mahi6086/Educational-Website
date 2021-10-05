@@ -11,7 +11,6 @@ const MenuBar = () => {
             <div className="row">
               <div className="col-md-3">
                 <div className="logo-img">
-                  {/* <img className="w-75" src={logo} alt="" /> */}
                   <h1><FontAwesomeIcon style={{fontSize: '45px'}} icon={faGraduationCap}></FontAwesomeIcon>CODELEARN</h1>
                  
                 </div>
@@ -25,11 +24,11 @@ const MenuBar = () => {
                     <Link to="/about" className="menubar">
                       <li>About</li>
                     </Link>
-                    <Link to="/services" className="menubar">
-                      <li>Services</li>
+                    <Link to="/courses" className="menubar">
+                      <li>Courses</li>
                     </Link>
-                    <Link to="contact" className="menubar">
-                      <li>Contact</li>
+                    <Link to="/instructors" className="menubar">
+                      <li>Instructors</li>
                     </Link>
                   </ul>
                 </div>

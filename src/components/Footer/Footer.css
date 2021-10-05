@@ -7,8 +7,14 @@
     font-size: 30px;
   }
   .icon:hover {
-    background-color: #0EB582;
-  }
+    color: #1ddaa1;
+    transition: all .3s linear;
+    transform: scale(130%);
+    -webkit-transform: scale(130%);
+    -moz-transform: scale(130%);
+    -ms-transform: scale(130%);
+    -o-transform: scale(130%);
+}
   .footer-menu {
     list-style: none;
     margin-top: 20px;
@@ -36,5 +42,8 @@
   .foter-phone-icon {
     font-size: 30px;
     color: #0EB582;
+  }
+  .sign-up{
+    margin-right: 135px;
   }
   

@@ -1,0 +1,16 @@
+.instructors-container{
+    margin: 20px;
+}
+.courses-title{
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+.dash-in{
+    background-color: #FFC107;
+    text-align: center;
+    width: 290px;
+    height: 3px;
+    margin: 0px auto;
+    
+}

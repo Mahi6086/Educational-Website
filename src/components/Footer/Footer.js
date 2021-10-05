@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css'
-// import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
@@ -9,10 +8,9 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-//   faCoffee,
   faPhoneSquareAlt,
-  faMapMarkedAlt,
   faEnvelope,
+  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -45,14 +43,13 @@ const Footer = () => {
                     diagnose.
                   </small>
                 </p>
-
                 <p className="mt-5">
                   <small>Code learn © . All rights reserved.</small>
                 </p>
               </div>
             </div>
             <div className="col-md-2">
-              <div className="footer-menu-container">
+              <div className="footer-menu-container mt-5 fw-bolder">
                 <ul>
                   <li className="footer-menu">Home</li>
                   <li className="footer-menu">Services</li>
@@ -63,30 +60,29 @@ const Footer = () => {
             </div>
             <div className="col-md-5">
               <div className="right-footer-container">
-                <h3>Sign up for the newsletter</h3>
+                <h3 className="sign-up">Sign up</h3>
                 <input
                   className="footer-input"
                   type="text"
                   placeholder="Enter Email"
                 />
-                <div className="phone d-flex align-items-center justify-content-center mt-4">
+                <div className="map d-flex align-items-center justify-content-center mt-4">
                   <div>
-                    <h5><FontAwesomeIcon className="foter-phone-icon" icon={faPhoneSquareAlt}></FontAwesomeIcon>+8801762595554</h5>
-                    <h5>+8801962595554</h5>
-                    <h5>+8801562595554</h5>
-                    <h5>+8801362595554</h5>
-                  </div>
-                </div>
-                <div className="map d-flex align-items-center justify-content-center">
-                  <div>
-                    <p> <FontAwesomeIcon className="foter-phone-icon me-2" icon={faMapMarkedAlt} />
-                      160 Broadway, New York, NY 10038,
-                      <br /> 102 1st Avenue, New York, NY 100
+                    <p> <FontAwesomeIcon className="foter-phone-icon me-2" icon={faMapMarkerAlt} />
+                    House# 82, Road# 19/A,<br/> Block# E, Banani, Dhaka-1213
                     </p>
                   </div>
                   </div>
+                <div className="phone d-flex align-items-center justify-content-center ">
                   <div>
-                    <div><FontAwesomeIcon className="foter-phone-icon me-2" icon={faEnvelope}></FontAwesomeIcon>hello@codelearnbd.com</div>
+                    <h5 className="me-4"><FontAwesomeIcon className="foter-phone-icon" icon={faPhoneSquareAlt}></FontAwesomeIcon> +8801762595554</h5>
+                    <h5>+8801962595554</h5>
+                    <h5>+8801562595554</h5>
+                    <h5>+8801362595554</h5>
+                    </div>
+                </div>
+                  <div>
+                    <div><FontAwesomeIcon className="foter-phone-icon" icon={faEnvelope}></FontAwesomeIcon> hello@codelearnbd.com</div>
                   </div>
               </div>
             </div>

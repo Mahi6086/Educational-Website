@@ -1,0 +1,23 @@
+.instructor{
+    background-color: #212529;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.instructor:hover{
+    transition: all .3s linear;
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+}
+.instructor h3{
+    color: #FFC107;
+}
+.instructor small{
+    color: #6C7562;
+    font-weight: 700;
+}

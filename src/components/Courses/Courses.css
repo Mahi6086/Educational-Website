@@ -6,11 +6,12 @@
 }
 .courses-title{
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
 }
 .dash{
     background-color: #02863A;
     text-align: center;
-    width: 90px;
+    width: 120px;
     height: 3px;
     margin: 0px auto;
 }

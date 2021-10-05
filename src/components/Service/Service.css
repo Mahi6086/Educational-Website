@@ -1,0 +1,22 @@
+.service{
+    border-radius: 5px;
+    background-color: #212529;
+    font-family: 'Roboto', sans-serif;
+}
+.service:hover{
+    
+        transition: all .3s linear;
+        transform: scale(105%);
+        -webkit-transform: scale(105%);
+        -moz-transform: scale(105%);
+        -ms-transform: scale(105%);
+        -o-transform: scale(105%);
+    
+}
+.service h3{
+    color: #FFC107;
+    font-weight: 400;
+}
+.service h5{
+    color: #7aa34a;
+}
